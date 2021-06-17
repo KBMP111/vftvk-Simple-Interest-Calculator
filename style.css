@@ -1,12 +1,20 @@
 body {background-color:white;}
-h1{color:grey;}
-.container{
+h1{
+    color:grey;
+    font-family:serif;
+    font-weight: 1100;
+}
+#container{
   margin-left: 50px;
   
 }
 
 #years{
-    width:50px;
+    width:10%;
+}
+
+#rateValue{
+    width:20%
 }
 
 

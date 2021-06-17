@@ -11,3 +11,5 @@ function updateRateValue(val) {
 function updateRate(val) {
           document.getElementById('rate').value=val; 
         }
+var str = "Yeah"
+document.getElementById("output").innerHTML = str
