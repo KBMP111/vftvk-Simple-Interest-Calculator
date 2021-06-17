@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <h1>Simple Interest Calculator</h1>
         <div class="container">
-            <h1>Simple Interest Calculator</h1>
-
+           
         <form>
             <table>
                 <tr> 
@@ -14,10 +14,10 @@
                     <td><input type="number"  id="principal"></td>  </tr>
             <tr> 
                     <td>Rate</td> 
-                    <td><input type="range"  id="rate" min=0 max=100 value=10.5></td>  </tr>
+                    <td><input type="range"  id="rate" min=0 max=100 value=10.5 onchange="updateRateValue(this.value);"> <input type="number" id="rateValue" value=10.5 onchange="updateRate(this.value);"> </td>  </tr>
                     <tr> 
                     <td>No. of Years</td> 
-                    <td><input type="number"  id="years"></td>  </tr>
+                    <td><input type="number"  id="years" min=0 value=1></td>  </tr>
         <tr><td><button onclick="compute()">Compute Interest</button></td></tr>
        
     </table></form>
