@@ -7,3 +7,7 @@ function compute()
 function updateRateValue(val) {
           document.getElementById('rateValue').value=val; 
         }
+
+function updateRate(val) {
+          document.getElementById('rate').value=val; 
+        }
