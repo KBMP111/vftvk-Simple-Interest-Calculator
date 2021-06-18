@@ -2,7 +2,7 @@ function compute(){
     p = document.getElementById("principal").value;
     r =  document.getElementById("rate").value;
     y = document.getElementById("years").value;
-    yrs = new Date().getFullYear()+y
+    yrs = new Date().getFullYear()+Number(y)
     var interest =r*y*p/100;
     document.getElementById("output1").innerHTML = "If you deposit "+ "<mark>"+p+"</mark>"  + ",";
     document.getElementById("output2").innerHTML = "at an interest rate of "+"<mark>"+r+"</mark>"+".";
