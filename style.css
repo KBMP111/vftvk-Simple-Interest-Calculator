@@ -1,11 +1,22 @@
-body {background-color:white;}
+body {background-color:black;
+padding: 30px;
+
+}
 h1{
     color:grey;
     font-family:serif;
     font-weight: 1100;
 }
+
+#box{
+   background-color:white;
+   padding: 30px ;
+   border-radius: 30px;
+}
 #container{
   margin-left: 50px;
+  
+  
   
 }
 
