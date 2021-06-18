@@ -5,8 +5,8 @@ function compute(){
     yrs = new Date().getFullYear()+Number(y)
     var interest =r*y*p/100;
     document.getElementById("output1").innerHTML = "If you deposit "+ "<mark>"+p+"</mark>"  + ",";
-    document.getElementById("output2").innerHTML = "at an interest rate of "+"<mark>"+r+"</mark>"+".";
-    document.getElementById("output3").innerHTML = "You will recieve an amount of " +"<mark>"+interest+"</mark>"+","
+    document.getElementById("output2").innerHTML = "at an interest rate of "+"<mark>"+r+"</mark>"+"%.";
+    document.getElementById("output3").innerHTML = "You will receive an amount of " +"<mark>"+interest+"</mark>"+","
     document.getElementById("output4").innerHTML = "in the year "+ "<mark>"+yrs+"</mark>"
 }
 
