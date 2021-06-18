@@ -2,8 +2,8 @@ function compute(){
     p = document.getElementById("principal").value;
     r =  document.getElementById("rate").value;
     y = document.getElementById("years").value;
-    var interest =r*y*p
-    return interest
+    var interest =r*y*p/100
+    document.getElementById("output").innerHTML = interest
   
 }
 
@@ -16,5 +16,5 @@ function updateRate(val) {
         }
 
 
-document.getElementById("output").innerHTML = interest
+
 
