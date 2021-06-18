@@ -1,7 +1,10 @@
-function compute()
-{
+function compute(){
     p = document.getElementById("principal").value;
-    
+    r =  document.getElementById("rate").value;
+    y = document.getElementById("years").value;
+    var interest =r*y*p
+    return interest
+  
 }
 
 function updateRateValue(val) {
@@ -11,8 +14,7 @@ function updateRateValue(val) {
 function updateRate(val) {
           document.getElementById('rate').value=val; 
         }
-var str = "Yeah";
-document.getElementById("output").innerHTML = str;
-var amount = document.getElementById("principal");
-var rate =  document.getElementById("rate");
-var years = document.getElementById("years")
+
+
+document.getElementById("output").innerHTML = interest
+
